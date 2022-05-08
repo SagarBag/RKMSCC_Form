@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(208, 231, 224);
+}
+header {
+    background-color: crimson;
+    height: 10vh;
+    text-decoration: none;
+    position: sticky;
+    top: 0;
+    display: flex;
+    z-index: 1;
+}
+
+marquee{
+    color: rgb(255, 255, 255);
+}
+header nav .logo img {
+    height: 9.5vh;
+    padding-left: .2vw;
+    padding-top: .5vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    padding-left: 20px;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: ivory;
+    padding: 0px 2vw;
+    font-family: 'cursive', 'Arial Narrow', cursive, sans-serif;
+    color: rgb(255, 255, 255);
+    border: 5px;
+
+    font-size: larger;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+    color: gold;
+    font-weight: bolder;
+    font-weight: bolder;
+
+
+}
+
+fieldset {
+    background-color: rgb(208, 231, 224);
+    height: 85vh;
+}
+
+footer {
+    height: 5vh;
+    background-color: black;
+    text-align: center;
+    color: beige;
+}
+
+legend {
+    font-family: 'Cooper Std Black';
+    font-size: larger;
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>legend and table</title>
+    <link rel="stylesheet" href="legendstyle.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <vid class="logo">
+                <img src="rkms_logo.jpg" alt="">
+            </vid>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header><br>
+    <marquee behavior="alternate" direction="" scrollamount="5" bgcolor="blue"><H4>--PLEASE FILL ALL THE FIELDS THEN SUBMIT--</H4></marquee>
+    <br><br>
+    <center>
+        <form action="table.php">
+            <fieldset>
+                <legend align="center"><h3>Register Your Details</h3></legend>
+                <!-- table starting form here -->
+                <table>
+                    <br><br>
+                    <tr>
+                        <td>Name :</td>
+                        <td><input type="text" name="name" id="n1" placeholder="Enter Your Nmae"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Roll :</td>
+                        <td><input type="number" name="Roll" id="n2" placeholder="Enter Your Roll"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>PASSWORD :</td>
+                        <td><input type="password" name="pass" size="30" placeholder="Enter Your Password"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>ADDRESS :</td>
+                        <td><textarea name="address" id="address" cols="30" rows="10"
+                                placeholder="Enter Your Address"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>GENDER :</td>
+                        <td><label for="male">
+                                <input type="radio" name="gender" id="male"> MALE
+                            </label><br>
+
+                            <label for="FEMALE">
+                                <input type="radio" name="gender" id="FEMALE"> FEMALE
+                            </label>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>QUEALIFICATION :</td>
+                        <td><label for="madhyamik">
+                                <input type="checkbox" id="madhyamik" name="queali">MADHYAMIK
+                            </label>
+                            <label for="hs">
+                                <input type="checkbox" id="hs" name="queali">HIGHER SECONDARY
+                            </label>
+                            <label for="gra">
+                                <input type="checkbox" id="gra" name="queali"> GRADUATE
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Date Of Birth :</td>
+                        <td><select name="day" id="day">
+                                <option selected hidden>-Select Date-</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                                <option>16</option>
+                                <option>17</option>
+                                <option>18</option>
+                                <option>19</option>
+                                <option>20</option>
+                                <option>21</option>
+                                <option>22</option>
+                                <option>23</option>
+                                <option>24</option>
+                                <option>25</option>
+                                <option>26</option>
+                                <option>27</option>
+                                <option>28</option>
+                                <option>29</option>
+                                <option>30</option>
+                                <option>31</option>
+                            </select></td>
+
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><select name="month" id="month">
+                                <option selected hidden>-Select Month-</option>
+                                <option>January</option>
+                                <option>February</option>
+                                <option>March</option>
+                                <option>April</option>
+                                <option>May</option>
+                                <option>June</option>
+                                <option>July</option>
+                                <option>August</option>
+                                <option>September</option>
+                                <option>October</option>
+                                <option>November</option>
+                                <option>December</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><select name="year" id="year">
+                                <option selected hidden>-Select Year-</option>
+                                <option>1990</option>
+                                <option>1991</option>
+                                <option>1992</option>
+                                <option>1993</option>
+                                <option>1994</option>
+                                <option>1995</option>
+                                <option>1996</option>
+                                <option>1997</option>
+                                <option>1998</option>
+                                <option>1999</option>
+                                <option>2000</option>
+                                <option>2001</option>
+                            </select></td>
+
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <br><br>
+                <input type="button" name="submit" value="Submit"
+                    onclick='alert(n1.value+" Your Entry Have Been Submitted Succesfully!")'>
+
+                <input type="reset" value="Reset" name="cancel">
+                <!-- <input type="reset" name="reset" value="cancel"> -->
+            </fieldset>
+        </form>
+
+    </center>
+    <footer>
+        <h3>&copy; Sagar Bag</h3>
+    </footer>
+</body>
+
+</html>
